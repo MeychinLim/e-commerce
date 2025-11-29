@@ -19,16 +19,20 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
-const Navbar = () => {
+const AppNavbar = () => {
   const menuItems = [
     {
       label: "Products",
       href: "/products",
     },
-    {
-      label: "Sales",
-      href: "/sales",
-    },
+    // {
+    //   label: "Sales",
+    //   href: "/sales",
+    // },
+    // {
+    //   label: "Customize",
+    //   href: "/customize",
+    // },
   ];
 
   return (
@@ -79,4 +83,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default AppNavbar;
