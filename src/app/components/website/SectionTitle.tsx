@@ -1,6 +1,6 @@
 import React from "react";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
+// import Link from "next/link";
+// import { Button } from "@/components/ui/button";
 
 interface SectionTitleProps {
   title: string;
@@ -13,9 +13,9 @@ interface SectionTitleProps {
 const SectionTitle: React.FC<SectionTitleProps> = ({
   title,
   subtitle,
-  badge,
-  ctaLabel,
-  ctaHref,
+  // badge,
+  // ctaLabel,
+  // ctaHref,
 }) => {
   return (
     <div className="flex justify-center gap-4 mt-32 mb-10 w-full text-center">
